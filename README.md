@@ -25,7 +25,7 @@ $ aws dynamodb describe-table \
 - Write items to the table
 ```
 $ aws dynamodb batch-write-item \
---request-items file://~/environment/myproject-aws-dynamodb-customer-service-terraform/populate-dynamodb.json
+--request-items file://~/environment/myproject-aws-dynamodb-customer-service-terraform/customers.json
 ```
 
 - Scan the table
@@ -44,6 +44,6 @@ $ aws dynamodb scan \
 |------|-------------|
 | | |
 
-## (In progress) Module Usage
+## (In Progress) Module Usage
 
 ## References
