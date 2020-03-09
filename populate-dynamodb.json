@@ -1,0 +1,76 @@
+{
+    "customers" : [
+       {
+          "PutRequest": {
+             "Item": {
+                "customerId" : {
+                    "S": "123456789001"
+                },
+                "customerFirstName" : {
+                    "S": "Barnie"
+                },
+                "customerLastName" : {
+                    "S": "Whittam"
+                },                
+                "customerEmail" : {
+                    "S": "bwhittam0@cpanel.net"
+                },
+                "customerDoB" : {
+                    "S": "December 31, 1999"
+                },                                
+                "customerGender" : {
+                    "S": "Male"
+                }
+             }
+          }
+       },
+       {
+        "PutRequest": {
+            "Item": {
+                "customerId" : {
+                    "S": "123456789002"
+                },
+                "customerFirstName" : {
+                    "S": "Emelyne"
+                },
+                "customerLastName" : {
+                    "S": "Plumley"
+                },                
+                "customerEmail" : {
+                    "S": "eplumley1@wikipedia.org"
+                },
+                "customerDoB" : {
+                    "S": "January 1, 2000"
+                },                                
+                "customerGender" : {
+                    "S": "Female"
+                }
+             }
+          }
+       }, 
+       {
+        "PutRequest": {
+            "Item": {
+                "customerId" : {
+                    "S": "123456789003"
+                },
+                "customerFirstName" : {
+                    "S": "Linoel"
+                },
+                "customerLastName" : {
+                    "S": "Dafter"
+                },                
+                "customerEmail" : {
+                    "S": "ldafter2@ucsd.edu"
+                },
+                "customerDoB" : {
+                    "S": "June 15, 1980"
+                },                                
+                "customerGender" : {
+                    "S": "Male"
+                }
+             }
+          }
+       }
+    ]
+}
