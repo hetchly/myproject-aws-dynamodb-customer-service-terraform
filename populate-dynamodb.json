@@ -3,72 +3,36 @@
        {
           "PutRequest": {
              "Item": {
-                "customerId" : {
-                    "S": "123456789001"
-                },
-                "customerFirstName" : {
-                    "S": "Barnie"
-                },
-                "customerLastName" : {
-                    "S": "Whittam"
-                },                
-                "customerEmail" : {
-                    "S": "bwhittam0@cpanel.net"
-                },
-                "customerDoB" : {
-                    "S": "December 31, 1999"
-                },                                
-                "customerGender" : {
-                    "S": "Male"
-                }
+                "customer_id" : { "S": "4e53920c-505a-4a90-a694-b9300791f0ae"},
+                "first_name" : { "S": "Barnie" },
+                "last_name" : { "S": "Whittam" },                
+                "email" : { "S": "bwhittam0@cpanel.net" },
+                "dob" : { "S": "December 31, 1999" },                                
+                "gender" : { "S": "Male" }
              }
           }
        },
        {
         "PutRequest": {
             "Item": {
-                "customerId" : {
-                    "S": "123456789002"
-                },
-                "customerFirstName" : {
-                    "S": "Emelyne"
-                },
-                "customerLastName" : {
-                    "S": "Plumley"
-                },                
-                "customerEmail" : {
-                    "S": "eplumley1@wikipedia.org"
-                },
-                "customerDoB" : {
-                    "S": "January 1, 2000"
-                },                                
-                "customerGender" : {
-                    "S": "Female"
-                }
+                "customer_id" : { "S": "2b473002-36f8-4b87-954e-9a377e0ccbec" },
+                "first_name" : { "S": "Emelyne" },
+                "last_name" : { "S": "Plumley" },                
+                "email" : { "S": "eplumley1@wikipedia.org" },
+                "dob" : { "S": "January 1, 2000" },                                
+                "gender" : { "S": "Female" }
              }
           }
        }, 
        {
         "PutRequest": {
             "Item": {
-                "customerId" : {
-                    "S": "123456789003"
-                },
-                "customerFirstName" : {
-                    "S": "Linoel"
-                },
-                "customerLastName" : {
-                    "S": "Dafter"
-                },                
-                "customerEmail" : {
-                    "S": "ldafter2@ucsd.edu"
-                },
-                "customerDoB" : {
-                    "S": "June 15, 1980"
-                },                                
-                "customerGender" : {
-                    "S": "Male"
-                }
+                "customer_id" : { "S": "3f0f196c-4a7b-43af-9e29-6522a715342d" },
+                "first_name" : { "S": "Linoel" },
+                "last_name" : { "S": "Dafter" },                
+                "email" : { "S": "ldafter2@ucsd.edu" },
+                "dob" : { "S": "June 15, 1980" },                                
+                "gender" : { "S": "Male"}
              }
           }
        }
