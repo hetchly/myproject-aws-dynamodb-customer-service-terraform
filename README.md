@@ -7,7 +7,6 @@ using https://github.com/jrdalino/aws-tfstate-backend-terraform
 ## Usage
 - Replace variables in terraform.tfvars
 - Replace variables in state_config.tf
-- Modify seed data in populate-dynamodb.json
 - Initialize, Review Plan and Apply
 ```
 $ terraform init
@@ -16,6 +15,7 @@ $ terraform apply
 ```
 
 ## DynamoDB Table Usage
+- Modify seed data in populate-dynamodb.json
 - Describe the table
 ```
 $ aws dynamodb describe-table \

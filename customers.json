@@ -5,10 +5,13 @@
              "Item": {
                 "customer_id" : { "S": "4e53920c-505a-4a90-a694-b9300791f0ae"},
                 "first_name" : { "S": "Barnie" },
-                "last_name" : { "S": "Whittam" },                
+                "last_name" : { "S": "Whittam" },
                 "email" : { "S": "bwhittam0@cpanel.net" },
-                "dob" : { "S": "December 31, 1999" },                                
-                "gender" : { "S": "Male" }
+                "dob" : { "S": "December 31, 1999" },
+                "gender" : { "S": "Male" },
+                "customer_number" : { "S": "0999962019111901" },
+                "card_number" : { "S": "6236332019111900010" },
+                "phone" : { "S": "97667321" }
              }
           }
        },
@@ -17,10 +20,13 @@
             "Item": {
                 "customer_id" : { "S": "2b473002-36f8-4b87-954e-9a377e0ccbec" },
                 "first_name" : { "S": "Emelyne" },
-                "last_name" : { "S": "Plumley" },                
+                "last_name" : { "S": "Plumley" },
                 "email" : { "S": "eplumley1@wikipedia.org" },
-                "dob" : { "S": "January 1, 2000" },                                
-                "gender" : { "S": "Female" }
+                "dob" : { "S": "January 1, 2000" },
+                "gender" : { "S": "Female" },
+                "customer_number" : { "S": "0999962019111902" },
+                "card_number" : { "S": "6236332019111900012" },
+                "phone" : { "S": "97667322" }
              }
           }
        }, 
@@ -29,10 +35,13 @@
             "Item": {
                 "customer_id" : { "S": "3f0f196c-4a7b-43af-9e29-6522a715342d" },
                 "first_name" : { "S": "Linoel" },
-                "last_name" : { "S": "Dafter" },                
+                "last_name" : { "S": "Dafter" },
                 "email" : { "S": "ldafter2@ucsd.edu" },
-                "dob" : { "S": "June 15, 1980" },                                
-                "gender" : { "S": "Male"}
+                "dob" : { "S": "June 15, 1980" },
+                "gender" : { "S": "Male"},
+                "customer_number" : { "S": "0999962019111903" },
+                "card_number" : { "S": "6236332019111900013" },
+                "phone" : { "S": "97667323" } 
              }
           }
        }
