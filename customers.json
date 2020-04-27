@@ -3,11 +3,11 @@
        {
           "PutRequest": {
              "Item": {
-                "customerId": { "S": "4e53920c-505a-4a90-a694-b9300791f0ae"},
+                "customerId": { "S": "947ffed8-c593-4bcb-b707-fc28e291b251"},
                 "firstName": { "S": "Barnie" },
                 "lastName": { "S": "Whittam" },
                 "email": { "S": "bwhittam0@cpanel.net" },
-                "userName": { "S": "bwhittam0@cpanel.net" },
+                "userName": { "S": "947ffed8-c593-4bcb-b707-fc28e291b251" },
                 "birthDate": { "S": "1900-01-01T00:00:00.000000" },
                 "gender": { "S": "Male" },
                 "custNumber": { "S": "0999962020010101" },
@@ -23,11 +23,11 @@
        {
         "PutRequest": {
             "Item": {
-                "customerId": { "S": "2b473002-36f8-4b87-954e-9a377e0ccbec" },
+                "customerId": { "S": "cd090710-cfee-48fc-a316-58aae62cf985" },
                 "firstName": { "S": "Emelyne" },
                 "lastName": { "S": "Plumley" },
                 "email": { "S": "eplumley1@wikipedia.org" },
-                "userName": { "S": "eplumley1@wikipedia.org" },
+                "userName": { "S": "cd090710-cfee-48fc-a316-58aae62cf985" },
                 "birthDate": { "S": "1900-01-01T00:00:00.000000" },
                 "gender": { "S": "Female" },
                 "custNumber": { "S": "0999962020010102" },
